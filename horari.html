@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+
+<style>
+td, th {
+    text-align: center;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}
+        
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th {
+    background-color: rgb(116, 255, 47);
+}
+caption {
+    color: #f39c12;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span.descans {
+    font-size: 20px;
+    padding: 15px;
+}
+span.classe {
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+}
+.LMSGI {
+    background-color: pink;
+}
+.BD {
+    background-color: beige;
+}
+.PED {
+    background-color:aqua;
+}
+.SI {
+    background-color: yellow;
+}
+.AN {
+    background-color: moccasin;
+}
+.TUT {
+    background-color: aquamarine;
+}
+.IPOI {
+    background-color: red;
+}
+.DIW {
+    background-color: orange;
+}
+</style>
+<h1><b>Horari</b></h1>
+</head>
+<body>
+    <table>
+    <caption>Curs 24-25</caption>
+        <tr>
+            <th></th>
+            <th>dilluns</th>
+            <th>dimarts</th>    
+            <th>dimecres</th>
+            <th>dijous</th>
+            <th>divendres</th>
+        </tr>
+        <tr>
+            <td>8:00 - 9:00</td>
+            <td span class="LMSGI" rowspan="2"><span class="classe">LMSGI</span></td>
+            <td span class="BD" rowspan="2"><span class="classe">BD</span></td>
+            <td span class="PED" rowspan="2"><span class="classe">P+ED</span></td>
+            <td span class="SI" rowspan="2"><span class="classe">SI</span></td>
+            <td span class="BD" rowspan="2"><span class="classe">BD</span></td>
+        </tr>
+        <tr>
+            <td>9:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:00</td>
+            <td span class="PED"></td>
+            <td span class="TUT">TUT</td>
+            <td span class="AN">AN</td>
+            <td span class="PED">P+ED</td>
+            <td span class="PED">P+ED</td>
+        </tr>
+        <tr>
+            <td colspan="6"><span class="descans">Descans</span></td>
+        </tr>
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td span class="PED">P+ED</td>
+            <td span class="DIW" rowspan="2"><span class="classe">DIW</span></td>
+            <td span class="IPOI" rowspan="2"><span class="classe">IPOI</span></td>
+            <td span class="PED" rowspan="2"><span class="classe">P+ED</span></td>
+            <td span class="PED">P+ED</td>
+        </tr>
+        <tr>
+            <td>12:30 - 13:30</td>
+            <td span class="IPOI">IPOI I</td>
+            <td span class="SI">SI</td>
+        </tr>
+    </table> 
+</body>
+</html>
